@@ -105,7 +105,7 @@ Returns 3 greener alternatives based on detected category.
 
 ---
 
-## 🧠 Scoring Engine
+##  Scoring Engine
 
 Rule-based keyword scoring on title + description + category. Examples:
 
