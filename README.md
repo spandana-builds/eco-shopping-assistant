@@ -1,4 +1,4 @@
-# 🌿 Eco Shopping Assistant
+# Eco Shopping Assistant
 
 A Chrome extension + Node.js backend that detects products on shopping sites
 (Amazon, Flipkart, Myntra) and shows a real-time sustainability score, eco
@@ -9,21 +9,21 @@ floating glassmorphism panel.
 
 ---
 
-## ✨ Features
+##  Features
 
-- 🔍 **Smart product detection** on Amazon, Flipkart, Myntra
-- ♻️ **Sustainability score (0–100)** with rule-based engine
-- 📊 **Animated score ring**, eco rating badges, and tips
-- 🌱 **Greener alternatives** suggested per category
-- 🪟 **Floating glassmorphic panel** injected into the page
-- 🌗 **Dark / light mode** toggle in the popup
-- 🕒 **History, streaks & weekly summary** in `chrome.storage`
-- 🌍 **Carbon footprint estimate** per product
-- 🛡️ Works offline with a built-in local fallback scorer
+-  **Smart product detection** on Amazon, Flipkart, Myntra
+-  **Sustainability score (0–100)** with rule-based engine
+-  **Animated score ring**, eco rating badges, and tips
+-  **Greener alternatives** suggested per category
+-  **Floating glassmorphic panel** injected into the page
+-  **Dark / light mode** toggle in the popup
+-  **History, streaks & weekly summary** in `chrome.storage`
+-  **Carbon footprint estimate** per product
+-  Works offline with a built-in local fallback scorer
 
 ---
 
-## 🧱 Project Structure
+##  Project Structure
 
 ```
 eco-shopping-assistant/
@@ -53,7 +53,7 @@ eco-shopping-assistant/
 
 ---
 
-## 🚀 Installation
+##  Installation
 
 ### 1. Backend
 
@@ -124,7 +124,7 @@ See `backend/utils/keywords.js`.
 
 ---
 
-## 🏗️ Architecture
+##  Architecture
 
 ```
  ┌──────────────┐  scrape   ┌─────────────────┐  POST /analyze-product
@@ -141,7 +141,7 @@ See `backend/utils/keywords.js`.
 
 ---
 
-## 🔮 Future Improvements
+##  Future Improvements
 
 - Real LCA (Life-Cycle Assessment) data sources
 - LLM-powered eco explanations
@@ -150,6 +150,4 @@ See `backend/utils/keywords.js`.
 - Carbon offset checkout integration
 - Firefox + Edge MV3 builds
 
----
 
-Made with 🌱 by the Eco Assistant team.
