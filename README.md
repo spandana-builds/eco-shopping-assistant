@@ -5,7 +5,7 @@ A Chrome extension + Node.js backend that detects products on shopping sites
 insights, and greener alternatives — directly inside the page via a beautiful
 floating glassmorphism panel.
 
-![hero](docs/screenshot-hero.png)
+
 
 ---
 
