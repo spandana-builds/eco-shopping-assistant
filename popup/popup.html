@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Eco Shopping Assistant</title>
+    <link rel="stylesheet" href="popup.css" />
+  </head>
+  <body>
+    <div class="wrap">
+      <header class="brand">
+        <div class="logo">🌿</div>
+        <div>
+          <h1>Eco Assistant</h1>
+          <p>Shop smarter, greener.</p>
+        </div>
+      </header>
+
+      <section class="card stat-card">
+        <div class="stat">
+          <span class="stat-value" id="productsAnalyzed">0</span>
+          <span class="stat-label">Analyzed</span>
+        </div>
+        <div class="stat">
+          <span class="stat-value" id="avgScore">—</span>
+          <span class="stat-label">Avg Score</span>
+        </div>
+        <div class="stat">
+          <span class="stat-value" id="streak">0</span>
+          <span class="stat-label">Day Streak</span>
+        </div>
+      </section>
+
+      <section class="card">
+        <label class="row">
+          <span>Extension Active</span>
+          <input type="checkbox" id="toggleActive" checked />
+        </label>
+        <label class="row">
+          <span>Dark Mode</span>
+          <input type="checkbox" id="toggleDark" />
+        </label>
+      </section>
+
+      <section class="card">
+        <h2>Recent Products</h2>
+        <ul id="history" class="history"></ul>
+      </section>
+
+      <footer>
+        <small>v1.0.0 · Made with 🌱</small>
+      </footer>
+    </div>
+    <script src="popup.js"></script>
+  </body>
+</html>
