@@ -20,6 +20,7 @@ floating glassmorphism panel.
 - 🕒 **History, streaks & weekly summary** in `chrome.storage`
 - 🌍 **Carbon footprint estimate** per product
 - 🛡️ Works offline with a built-in local fallback scorer
+<<<<<<< HEAD
 ![hero](ss/i5.png)![hero](ss/i6.png)
 =======
 
