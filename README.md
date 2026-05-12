@@ -1,15 +1,15 @@
-# 🌿 Eco Shopping Assistant
+#  Eco Shopping Assistant
 
 A Chrome extension + Node.js backend that detects products on shopping sites
 (Amazon, Flipkart, Myntra) and shows a real-time sustainability score, eco
 insights, and greener alternatives — directly inside the page via a beautiful
 floating glassmorphism panel.
 
-![hero](ss/i1.png)
-
+![hero](ss/i3.png)
+![hero](ss/i4.png)
 ---
 
-## ✨ Features
+##  Features
 
 - 🔍 **Smart product detection** on Amazon, Flipkart, Myntra
 - ♻️ **Sustainability score (0–100)** with rule-based engine
@@ -20,10 +20,10 @@ floating glassmorphism panel.
 - 🕒 **History, streaks & weekly summary** in `chrome.storage`
 - 🌍 **Carbon footprint estimate** per product
 - 🛡️ Works offline with a built-in local fallback scorer
-
+![hero](ss/i2.png)
 ---
 
-## 🧱 Project Structure
+##  Project Structure
 
 ```
 eco-shopping-assistant/
@@ -53,7 +53,7 @@ eco-shopping-assistant/
 
 ---
 
-## 🚀 Installation
+##  Installation
 
 ### 1. Backend
 
@@ -77,7 +77,7 @@ npm start
 
 ---
 
-## 📡 API
+##  API
 
 ### `GET /health`
 Health check. Returns `{ status: "ok" }`.
@@ -105,7 +105,7 @@ Returns 3 greener alternatives based on detected category.
 
 ---
 
-## 🧠 Scoring Engine
+##  Scoring Engine
 
 Rule-based keyword scoring on title + description + category. Examples:
 
@@ -124,7 +124,7 @@ See `backend/utils/keywords.js`.
 
 ---
 
-## 🏗️ Architecture
+##  Architecture
 
 ```
  ┌──────────────┐  scrape   ┌─────────────────┐  POST /analyze-product
@@ -141,7 +141,7 @@ See `backend/utils/keywords.js`.
 
 ---
 
-## 🔮 Future Improvements
+##  Future Improvements
 
 - Real LCA (Life-Cycle Assessment) data sources
 - LLM-powered eco explanations
@@ -150,6 +150,3 @@ See `backend/utils/keywords.js`.
 - Carbon offset checkout integration
 - Firefox + Edge MV3 builds
 
----
-
-Made with 🌱 by the Eco Assistant team.
