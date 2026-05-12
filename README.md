@@ -22,13 +22,6 @@ floating glassmorphism panel.
 - 🛡️ Works offline with a built-in local fallback scorer
 <<<<<<< HEAD
 ![hero](ss/i5.png)![hero](ss/i6.png)
-=======
-
-
-  
-![hero](ss/i2.png)
->>>>>>> 17b5be4dff5fbce889f44e0c82fa7297f5901c10
----
 
 ##  Project Structure
 
